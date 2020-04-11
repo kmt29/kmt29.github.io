@@ -91,6 +91,7 @@ body {
 }
 
 .jumpers {
+    font-size: 0.9rem;
     position: fixed;
     z-index: 9;
     top: 85%;
@@ -109,6 +110,15 @@ body {
     text-decoration: none;
     color: white;
     border-bottom: 2px solid white;
+}
+
+.watermark {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3%;
+    opacity: 0.5;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 575.98px) {
