@@ -91,7 +91,6 @@ body {
 }
 
 .jumpers {
-    font-size: 0.9rem;
     position: fixed;
     z-index: 9;
     top: 85%;
@@ -100,6 +99,7 @@ body {
 
 .jump-link,
 .jump-item {
+    padding: .2rem;
     list-style-type: none;
     color: white;
     font-family: spacemonoBold;
@@ -150,6 +150,7 @@ body {
     }
     .jumpers {
         left: -5%;
+        font-size: .9rem;
     }
 }
 
